@@ -1,0 +1,21 @@
+{
+  "name": "manual-ntt",
+  "version": "1.0.0",
+  "description": "Wormhole Native Token Transfer Example",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "npx ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@solana/web3.js": "^1.90.0",
+    "@wormhole-foundation/sdk": "^1.16.1",
+    "@wormhole-foundation/sdk-solana": "^1.13.3",
+    "@wormhole-foundation/sdk-solana-ntt": "^0.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
